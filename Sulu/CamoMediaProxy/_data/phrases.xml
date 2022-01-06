@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="option.cmpAlgo" version_id="2" version_string="0.0.2"><![CDATA[Algorithm]]></phrase>
+  <phrase title="option.cmpEncoding" version_id="2" version_string="0.0.2"><![CDATA[Encoding]]></phrase>
+  <phrase title="option.cmpKey" version_id="2" version_string="0.0.2"><![CDATA[Key]]></phrase>
+  <phrase title="option.cmpProxUrl" version_id="2" version_string="0.0.2"><![CDATA[Proxy Url]]></phrase>
+  <phrase title="option_explain.cmpAlgo" version_id="2" version_string="0.0.2"><![CDATA[]]></phrase>
+  <phrase title="option_explain.cmpEncoding" version_id="2" version_string="0.0.2"><![CDATA[Select hex or base64 encoding]]></phrase>
+  <phrase title="option_explain.cmpKey" version_id="2" version_string="0.0.2"><![CDATA[Secret key used for signing requests. Must mach key of camo instance!]]></phrase>
+  <phrase title="option_explain.cmpProxUrl" version_id="2" version_string="0.0.2"><![CDATA[Full formatted url for proxied media.
+
+Valid replacements: {{url}} (base64/hex URL), {{hmac}} (base64/hex signature), {{plainUrl}} (URL verbatim), {{algorithm}} (signature algo).]]></phrase>
+  <phrase title="option_group.sulucmp" version_id="2" version_string="0.0.2"><![CDATA[Camo Media Proxy]]></phrase>
+  <phrase title="option_group_description.sulucmp" version_id="2" version_string="0.0.2"><![CDATA[Configuration for a custom camo media proxy]]></phrase>
+</phrases>

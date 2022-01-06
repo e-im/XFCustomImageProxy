@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="cmpAlgo" edit_format="select" data_type="string" advanced="0">
+    <default_value>sha1</default_value>
+    <edit_format_params>plain
+ md2=md2
+ md4=md4
+ md5=md5
+ sha1=sha1
+ sha224=sha224
+ sha256=sha256
+ sha384=sha384
+ sha512/224=sha512/224
+ sha512/256=sha512/256
+ sha512=sha512
+ sha3-224=sha3-224
+ sha3-256=sha3-256
+ sha3-384=sha3-384
+ sha3-512=sha3-512
+ ripemd128=ripemd128
+ ripemd160=ripemd160
+ ripemd256=ripemd256
+ ripemd320=ripemd320
+ whirlpool=whirlpool
+ tiger128,3=tiger128,3
+ tiger160,3=tiger160,3
+ tiger192,3=tiger192,3
+ tiger128,4=tiger128,4
+ tiger160,4=tiger160,4
+ tiger192,4=tiger192,4
+ snefru=snefru
+ snefru256=snefru256
+ gost=gost
+ gost-crypto=gost-crypto
+ haval128,3=haval128,3
+ haval160,3=haval160,3
+ haval192,3=haval192,3
+ haval224,3=haval224,3
+ haval256,3=haval256,3
+ haval128,4=haval128,4
+ haval160,4=haval160,4
+ haval192,4=haval192,4
+ haval224,4=haval224,4
+ haval256,4=haval256,4
+ haval128,5=haval128,5
+ haval160,5=haval160,5
+ haval192,5=haval192,5
+ haval224,5=haval224,5
+ haval256,5=haval256,5</edit_format_params>
+    <relation group_id="sulucmp" display_order="1"/>
+  </option>
+  <option option_id="cmpEncoding" edit_format="select" data_type="string" advanced="0">
+    <default_value>hex</default_value>
+    <edit_format_params>plain
+ hex=Hex
+ base64=Base64</edit_format_params>
+    <relation group_id="sulucmp" display_order="1"/>
+  </option>
+  <option option_id="cmpKey" edit_format="textbox" data_type="string" advanced="0">
+    <default_value></default_value>
+    <relation group_id="sulucmp" display_order="1"/>
+  </option>
+  <option option_id="cmpProxUrl" edit_format="textbox" data_type="string" advanced="0">
+    <default_value>https://camo.example.com/{{hmac}}/{{url}}</default_value>
+    <relation group_id="sulucmp" display_order="1"/>
+  </option>
+</options>
